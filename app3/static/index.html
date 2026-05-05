@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Where is the Point?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Where is the moving point?</h1>
+    <p>The server moves a point to a new spot every few seconds.</p>
+
+    <textarea id="question" rows="2" placeholder="Ask the model..."></textarea>
+    <button id="ask-button">Ask</button>
+
+    <div class="panels">
+        <div class="panel">
+            <h2>Without tool access</h2>
+            <p id="answer-without" class="answer"></p>
+        </div>
+
+        <div class="panel">
+            <h2>With tool access</h2>
+            <p id="answer-with" class="answer"></p>
+            <svg id="plot-with" class="plot" viewBox="0 0 300 300" hidden></svg>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#categories {
+    list-style: disc inside;
+    padding: 0;
+}
+
+#categories li {
+    padding: 0.25rem 0;
+}
+
+#text-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#classify-button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+}
